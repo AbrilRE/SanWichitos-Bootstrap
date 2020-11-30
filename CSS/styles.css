@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+figure,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p {
+  margin: 0px;
+}
+
+#header {
+  color: white;
+  background: rgb(255, 171, 35);
+  background: radial-gradient(
+    circle,
+    rgba(255, 171, 35, 1) 0%,
+    rgba(252, 91, 70, 1) 97%
+  );
+  font-size: 20px;
+}
+
+.header__logo {
+  height: 40px;
+  width: 200px;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: red;
+  color: white !important;
+}
+
+#hero {
+  background-image: url("../IMG/portada.png");
+  height: 75vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flechas {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 65px;
+}
+
+.flechas > img {
+  width: 62px;
+}
+
+#ingredientes {
+  background-color: #ffab23;
+  color: white;
+  height: 20%;
+}
+
+#ingredientes-h2 {
+  color: black;
+}
+
+#ingredientes-img {
+  width: 150px;
+}
+
+.buscas {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 55px;
+}
+
+#hero2 {
+  background-image: url("../IMG/portada2.png");
+  height: 65vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pollo {
+  background-image: url("../img/pollo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.cubano {
+  background-image: url("../img/cubano.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.monte {
+  background-image: url("../img/montecristo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.verduras {
+  background-image: url("../img/verduras.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  padding: 50px;
+  box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.pollo:hover,
+.cubano:hover,
+.monte:hover,
+.verduras:hover {
+  transform: scale(1.02);
+  transition: 300ms;
+}
+
+.boton {
+  background-color: #ffab23;
+  margin-top: 40px;
+  padding: 20px;
+  width: 180px;
+  border: none;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.boton:hover {
+  transform: scale(1.02);
+  transition: 300ms;
+}
+
+.boton > a,
+.boton > a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  background: rgb(252, 91, 70);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 91, 70, 1) 0%,
+    rgba(255, 171, 35, 1) 45%,
+    rgba(255, 171, 35, 1) 52%,
+    rgba(252, 91, 70, 1) 100%
+  );
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logofot {
+  width: 170px;
+}
+
+#hr {
+  height: 3px;
+  background-color: black;
+  border-style: none;
+  margin-top: 5px;
+}
+
+.social > img {
+  width: 60px;
+}
+
+#linksfot > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+}
+
+#linksfot > a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.firma {
+  margin-top: 5px;
+  font-style: italic;
+  color: #525252;
+}
