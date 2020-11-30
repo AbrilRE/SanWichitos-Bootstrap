@@ -60,7 +60,7 @@ p {
 
 .flechas {
   font-family: "Sedgwick Ave Display", cursive;
-  font-size: 65px;
+  font-size: 60px;
 }
 
 .flechas > img {
@@ -79,6 +79,7 @@ p {
 
 #ingredientes-img {
   width: 150px;
+  height: auto;
 }
 
 .buscas {
