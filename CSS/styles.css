@@ -95,7 +95,7 @@ p {
 }
 
 .pollo {
-  background-image: url("../img/pollo.jpg");
+  background-image: url("../IMG/pollo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +108,7 @@ p {
 }
 
 .cubano {
-  background-image: url("../img/cubano.jpg");
+  background-image: url("../IMG/cubano.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,7 @@ p {
 }
 
 .monte {
-  background-image: url("../img/montecristo.jpg");
+  background-image: url("../IMG/montecristo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,7 @@ p {
 }
 
 .verduras {
-  background-image: url("../img/verduras.jpg");
+  background-image: url("../IMG/verduras.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
